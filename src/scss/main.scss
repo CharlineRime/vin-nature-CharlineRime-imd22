@@ -19,6 +19,8 @@ body {
   font-size: 16px;
   line-height: 30px;
   margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .menuHaut {
@@ -62,4 +64,110 @@ body {
 .languages {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  display: flex;
+  padding: 14px 23px;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  gap: 10px;
+  border: 1px solid black;
+  background: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buttonBanner {
+  display: flex;
+  padding: 14px 23px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.banner {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 408px;
+}
+.bannerVins {
+  background-image: url("../img/Vins banner.png");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  height: 337px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.bannerVisites {
+  background-image: url("../img/banner visites.png");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  height: 337px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Advent Pro";
+  font-size: 38px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.texteCarte {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 52px;
+  width: 496;
+}
+.pinotBouteille {
+  width: 249px;
+  height: 458px;
+  flex-shrink: 0;
+}
+.carteGrande {
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f4f4;
+  margin-top: 144px;
+  gap: 126px;
+}
+.cartePetite {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #f4f4f4;
+  margin-top: 144px;
+  margin-bottom: 171px;
+}
+.imagePetiteCarte {
+  width: 211px;
+  height: 309px;
+  flex-shrink: 0;
 }
