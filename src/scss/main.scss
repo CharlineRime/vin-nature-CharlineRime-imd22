@@ -99,7 +99,7 @@ button {
   width: 408px;
 }
 .bannerVins {
-  background-image: url("../img/Vins banner.png");
+  background-image: url("../img/Vinsbanner.png");
   background-repeat: no-repeat, repeat;
   background-color: #cccccc;
   height: 337px;
@@ -112,7 +112,7 @@ button {
 }
 
 .bannerVisites {
-  background-image: url("../img/banner visites.png");
+  background-image: url("../img/bannervisites.png");
   background-repeat: no-repeat, repeat;
   background-color: #cccccc;
   height: 337px;
@@ -150,11 +150,16 @@ h2 {
   width: 249px;
   height: 458px;
   flex-shrink: 0;
+  margin-left: 25px;
+  margin-top: -50px;
 }
 .carteGrande {
   display: flex;
   flex-direction: row;
   background-color: #f4f4f4;
+  width: 905px;
+  height: 436px;
+  flex-shrink: 0;
   margin-top: 144px;
   gap: 126px;
 }
@@ -165,9 +170,25 @@ h2 {
   background-color: #f4f4f4;
   margin-top: 144px;
   margin-bottom: 171px;
+  width: 555px;
+  height: 309px;
 }
 .imagePetiteCarte {
   width: 211px;
   height: 309px;
   flex-shrink: 0;
+  margin-left: 25px;
+  margin-top: -25px;
+}
+
+.footerbackground {
+  background-image: url("../img/Illustrationnoire.png");
+  background-repeat: no-repeat, repeat;
+  height: 337px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
