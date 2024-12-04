@@ -184,5 +184,44 @@ h2 {
 }
 
 .footerbackground {
+  padding-top: 536px;
   background-image: url("../img/Illustrationnoire.png");
+  background-size: cover;
+  padding-bottom: 45px;
+}
+
+.horaires {
+  display: flex;
+  gap: 10px;
+}
+.copyright {
+  color: var(--white, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.56;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+.FooterText {
+  color: var(--white, #fff);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+}
+.conditions {
+  color: var(--white, #fff);
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.56;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  width: 58%;
 }
