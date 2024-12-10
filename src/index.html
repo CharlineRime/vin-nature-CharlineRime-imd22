@@ -1,49 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scss/main.scss" />
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-5"></div>
-        <div class="col-7">
-          <div class="header">
-            <div class="menu">
-              <div class="menuHaut">
-                <p class="link">Le domaine</p>
-                <p class="link">Philosophie</p>
-                <p class="link">Nos vins</p>
-                <p class="link">Actualités</p>
-              </div>
-              <div class="menuBas">
-                <p class="link">Vente en ligne</p>
-                <p class="link">Contact</p>
-                <p class="lastlink">Visites et événement</p>
-              </div>
-            </div>
-            <div class="icon">
-              <img class="profil" src="img/profil.png" alt="Profil" />
-              <img class="panier" src="img/panier.png" alt="panier" />
-            </div>
-            <div class="languages">
-              <p class="link">FR</p>
-              <p class="link">EN</p>
-              <p class="link">DE</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<extends src="base-layout.html">
+  <block name="content">
     <div class="illustrationtop">
       <div class="container-fluid">
         <div class="row">
@@ -61,7 +17,7 @@
             <p class="banner">
               Découvrez nos vins naturels d'exception issus du terroir valaisan.
             </p>
-            <button class="buttonBanner">Nos vins</button>
+            <a href="détail-vin-rouge.html" class="buttonBanner">Nos vins</a>
           </div>
         </div>
         <div class="col-1"></div>
@@ -145,80 +101,6 @@
         </div>
         <div class="col-1"></div>
       </div>
-      <div class="footerbackground">
-        <div class="row align-items-end">
-          <div class="col-1"></div>
-          <div class="col-3"><img src="img/logoblanc.png" alt="Logo" /></div>
-          <div class="col-3 border-left">
-            <div class="socials">
-              <img src="img/insta.png" alt="Instagram" />
-              <img src="img/x.png" alt="X" />
-              <img src="img/facebook.png" alt="Facebook" />
-            </div>
-            <p class="FooterText">info@grandchavalard.ch</p>
-            <p class="FooterText">+41 79 155 65 53</p>
-          </div>
-          <div class="col-2 border-left">
-            <p class="FooterText">Horaires d’ouverture</p>
-            <div class="horaires">
-              <p class="FooterText">LUN-VEN</p>
-              <p class="FooterText">8:00 18:00</p>
-            </div>
-            <div class="horaires weekendhours">
-              <p class="FooterText">SA</p>
-              <p class="FooterText">8:00 16:00</p>
-            </div>
-          </div>
-          <div class="col-2"></div>
-          <div class="col-1">
-            <img
-              src="img/logobiosuisse.png"
-              alt="Bio Suisse"
-              class="biosuisse"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-3">
-            <p class="conditions">Conditions générales de vente</p>
-            <p class="conditions">Protection des données / cookies</p>
-          </div>
-          <div class="col-3 border-left">
-            <div class="adresse">
-              <p class="FooterText">Chemin des Alpes 42</p>
-              <p class="FooterText">1926 Fully</p>
-              <p class="FooterText">Suisse</p>
-            </div>
-          </div>
-          <div class="col-4 border-left">
-            <p class="FooterText">Newsletter - Les news du Chavalard</p>
-            <div class="newsletterAlign">
-              <div class="email"><p class="emailopacity">Votre email</p></div>
-              <button class="buttonnewsletter">s'inscrire</button>
-            </div>
-          </div>
-          <div class="col-1">
-            <img
-              src="img/logogaultetmillau.png"
-              alt="Gault et Millau"
-              class="GetM"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-4"></div>
-          <div class="col-3 border-left"></div>
-          <div class="col-5 border-left">
-            <p class="copyright">
-              2024 Le Grand Chavalard. Tous droits réservés.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
-
-    <script src="js/main.js" type="module"></script>
-  </body>
-</html>
+  </block>
+</extends>
