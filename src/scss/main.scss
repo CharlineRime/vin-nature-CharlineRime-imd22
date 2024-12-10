@@ -22,7 +22,6 @@ body {
   margin-top: 50px;
   margin-left: 0px;
   margin-right: 0px;
-  width: 1440px;
 }
 
 .menuHaut {
@@ -200,6 +199,7 @@ h2 {
   font-size: 12px;
   font-weight: 400;
   opacity: 0.56;
+  margin-top: 50px;
 }
 
 .socials {
@@ -227,8 +227,84 @@ h2 {
   width: 58%;
 }
 
-.illustrationblanche {
+.weekendhours {
+  gap: 62px;
+}
+.email {
+  display: flex;
+  padding: 0px 13px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  background: var(--white, #fff);
+  font-size: 16px;
+  width: 272px;
+  height: 40px;
+}
+
+.emailopacity {
+  opacity: 0.4;
+}
+.newsletterAlign {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+.buttonnewsletter {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-color: white;
+}
+.GetM {
+}
+
+.biosuisse {
+}
+
+.footeralign {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.border-left {
+  position: relative;
+}
+.border-left::before {
+  content: "";
+  display: block;
+  width: 1px;
+  opacity: 0.1;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+.illustrationtop {
   background-image: url("../img/Illustrationblanche.png");
-  background-size: cover;
-  padding-bottom: 320px;
+  aspect-ratio: 719/370;
+  background-size: 100%;
+  margin-bottom: -100px;
+}
+.alignTextWine {
+  text-align: left;
+}
+.category {
+  color: var(--Black, #000);
+
+  /* Titre 2 */
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 15px;
+}
+.categoryInfoWine {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
 }
