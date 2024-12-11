@@ -1,5 +1,44 @@
+ <!-- Expication navigation: 
+"Le domaine" (header) -> page d'accueil
+"Nos vins" (banner) -> vin blanc
+"Plus en détail" (première carte) -> vin rouge -->
+
+
+
 <extends src="base-layout.html">
   <block name="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-5"> </div>
+        <div class="col-7">
+          <div class="header">
+            <div class="menu">
+              <div class="menuHaut">
+                <a href="index.html" class="link yellowhover">Le domaine</a>
+                <p class="link yellowhover">Philosophie</p>
+                <p class="link yellowhover">Nos vins</p>
+                <p class="link yellowhover">Actualités</p>
+              </div>
+              <div class="menuBas">
+                <p class="link yellowhover">Vente en ligne</p>
+                <p class="link yellowhover">Contact</p>
+                <p class="lastlink yellowhover">Visites et événement</p>
+              </div>
+            </div>
+            <div class="icon">
+              <img class="profil yellowhover" src="img/profil.png" alt="Profil" />
+              <img class="panier yellowhover" src="img/panier.png" alt="panier" />
+            </div>
+            <div class="languages">
+              <p class="link yellowhover">FR</p>
+              <p class="link yellowhover">EN</p>
+              <p class="link yellowhover">DE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="illustrationtop">
       <div class="container-fluid">
         <div class="row">
@@ -17,7 +56,7 @@
             <p class="banner">
               Découvrez nos vins naturels d'exception issus du terroir valaisan.
             </p>
-            <a href="détail-vin-rouge.html" class="buttonBanner">Nos vins</a>
+            <a href="détail-vin-blanc.html" class="buttonBanner yellowhover">Nos vins</a>
           </div>
         </div>
         <div class="col-1"></div>
@@ -42,8 +81,7 @@
                 mûrs et d'épices subtiles. Il allie fraîcheur et complexité,
                 idéal pour accompagner charcuteries et viandes grillées.
               </p>
-              <button>Plus en détail</button>
-            </div>
+              <a href="détail-vin-rouge.html" class="button yellowhover">Plus en détail</a> 
           </div>
         </div>
       </div>

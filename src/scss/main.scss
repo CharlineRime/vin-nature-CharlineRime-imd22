@@ -75,6 +75,20 @@ body {
 }
 
 button {
+  font-family: Raleway;
+  display: flex;
+  padding: 14px 23px;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  gap: 10px;
+  border: 1px solid black;
+  background: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.button {
   display: flex;
   padding: 14px 23px;
   justify-content: center;
@@ -215,11 +229,8 @@ h2 {
 }
 .conditions {
   color: var(--white, #fff);
-  font-family: Raleway;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   opacity: 0.56;
   padding-bottom: 8px;
   margin-bottom: 10px;
@@ -258,12 +269,6 @@ h2 {
   text-transform: uppercase;
   border-color: white;
 }
-.GetM {
-}
-
-.biosuisse {
-}
-
 .footeralign {
   display: flex;
   align-items: flex-end;
@@ -301,4 +306,30 @@ h2 {
   font-size: 20px;
   font-weight: 600;
   padding-top: 15px;
+}
+.imgHeaderVin {
+  height: 75%;
+  margin-top: -20px;
+}
+
+.greybackground {
+  background-color: #f4f4f4;
+  margin: 30px 151px 46px 151px;
+}
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  color: #f8d966;
+  border-color: #f8d966;
+}
+.yellowhover:hover {
+  color: #f8d966;
+  border-color: #f8d966;
+}
+.pencil .product-cart {
+  transition: background 0.5s, opacity 0.5s, transform 0.5s;
+  opacity: 0;
+  transform: translateY(-40px);
 }
