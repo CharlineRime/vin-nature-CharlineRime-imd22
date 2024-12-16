@@ -348,12 +348,10 @@ button:hover {
 }
 
 .pinotBouteillePageVins {
-  width: 327px;
   height: 513px;
   flex-shrink: 0;
   flex-shrink: 0;
-  margin-left: -20px;
-  margin-top: -109px;
+  transform: translate(-50px, -60px);
 }
 .greybackground {
   background-color: #f4f4f4;
@@ -368,6 +366,9 @@ button:hover {
   gap: 126px;
 }
 .pinotverre {
-  margin-right: -20px;
-  margin-bottom: -50px;
+  transform: translate(50px, 60px);
+}
+.align {
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
