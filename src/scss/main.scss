@@ -120,6 +120,15 @@ button {
   font-size: 20px;
   font-weight: 600;
   padding-top: 100px;
+  max-width: 408px;
+}
+.secondbanner {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 100px;
+  max-width: 371px;
 }
 .bannerVins {
   background-image: url("../img/Vinsbanner.png");
