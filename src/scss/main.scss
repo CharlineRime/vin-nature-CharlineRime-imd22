@@ -334,6 +334,12 @@ button:hover {
   border-color: #f8d966;
 }
 
+.yellowhover {
+  transition: color 0.5s, border-color 0.5s;
+}
+button {
+  transition: color 0.5s, border-color 0.5s;
+}
 .buttonvin {
   margin-top: 44px;
 }
